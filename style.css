@@ -55,9 +55,10 @@ button {
 h1 {
   font-size: 1.5rem;
 }
-
-@media screen and  (min-width: 375) {
-  main {
-    font-size: larger;
-  }
+ 
+@media screen and (width < 400px){
+    main { width: 90%;   height: 85%}
+    p, q , button { font-size: 1rem;}
+    button { width: 60vw}
+    
 }
