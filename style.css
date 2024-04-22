@@ -56,9 +56,36 @@ h1 {
   font-size: 1.5rem;
 }
  
-@media screen and (width < 400px){
-    main { width: 90%;   height: 85%}
-    p, q , button { font-size: 1rem;}
-    button { width: 60vw}
-    
+@media only screen and (width <= 400px){
+  img { height: 15vh ; width: 15vb;}
+  main { width: 80% ; height:  80%}
+  h1 {font-size: 8vw;}
+  p {font-size: 4vw;  margin-top: -3vh;}
+  button { width: 65vw ; height: 6vh; font-size : 4vw;}
+  q { font-size : 0.8rem; text-align: center;}
+}
+
+@media only screen and ( width >=401px){
+  img { height: 15vh ; width: 15vb;}
+  main { width: 60% ; height:  80%}
+  h1 {font-size: 5vw;}
+  p {font-size: 3vw;  margin-top: -3vh;}
+  button { width: 50vw ; height: 6vh; font-size : 3vw;}
+  q { font-size : 2.5vw; width:  48vw ; text-align: center;}
+}
+@media only screen and ( width >=550px){
+  img { height: 15vh ; width: 15vb;}
+  main { width: 40vw ; height:  85%}
+  h1 {font-size: 3vw;}
+  p {font-size: 2vw;  margin-top: -3vh;}
+  button { width: 35vw ; height: 6vh; font-size : 2vw;}
+  q { font-size : 0.8rem; width : 40vw; text-align: center;}
+}
+
+
+@media only screen and ( height > 700px){
+  button { font-size: 1.3rem;}
+  p{ font-size: 1.3rem;}
+  q{font-size: 1.2rem;}
+  h1 { font-size: 2.3rem}
 }
