@@ -75,6 +75,14 @@ h1 {
 }
 @media only screen and ( width >=550px){
   img { height: 15vh ; width: 15vb;}
+  main { width: 60vw ; height:  85%}
+  h1 {font-size: 3vw;}
+  p {font-size: 1.5vw;  margin-top: -3vh;}
+  button { width: 55vw ; height: 6vh; font-size : 1.5vw;}
+  q { font-size : 1vw; width : 50vw; text-align: center;}
+}
+@media only screen and ( width >=700px){
+  img { height: 15vh ; width: 15vb;}
   main { width: 30vw ; height:  85%}
   h1 {font-size: 3vw;}
   p {font-size: 1.5vw;  margin-top: -3vh;}
